@@ -15,10 +15,11 @@ Install the following Perl modules, which are available from CPAN:
 * YAML 	http://search.cpan.org/~ingy/YAML-0.88/
 
 Additional software:
-LIBSVM 	Support Vector Machines for classification and regression
-iAlign  a method for the structural comparison of protein-protein 
+* LIBSVM 	Support Vector Machines for classification and regression
+* iAlign  a method for the structural comparison of protein-protein 
 
 STEP 1. Create input file (erankppi_input.txt) for machine learning or Linear regression prediction. 
+
 For this step you'll need the following :
 	- zdock output file
 	- efindsiteppi prediction file for the receptor
@@ -44,9 +45,11 @@ additional options:
         -o < output file name, default erankppi_input.txt>
 
 Example:
+
 ../erankppi_input.pl -z 11as.zdock.out -d 9rub-dimer.pdb -c A -p 11as.sites.dat
 
 STEP 2 
+
 For homodimers run svm-predict on the input file generate in step 1.
 
 /$DIR/libsvm-3.14/svm-predict erankppi_input.txt /$DIR/eRankPPI/model/model_svm output.predict.txt
