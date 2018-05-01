@@ -4,15 +4,15 @@ Dimer model ranking with machine learning
 Installation and requirements
 
 Install the following Perl modules, which are available from CPAN:
-File::Temp 	http://search.cpan.org/~dagolden/File-Temp-0.2301/
-File::Slurp 	http://search.cpan.org/~uri/File-Slurp-9999.19/
-File::Copy 	http://search.cpan.org/~rjbs/perl-5.18.1/
-Compress::Zlib 	http://search.cpan.org/~pmqs/IO-Compress-2.063/
-List::Util 	http://search.cpan.org/~pevans/Scalar-List-Utils-1.35/
-Algorithm::NeedlemanWunsch 	http://search.cpan.org/~vbar/Algorithm-NeedlemanWunsch-0.04/
-Benchmark 	http://search.cpan.org/~rjbs/perl-5.18.1/
-Cwd 	http://search.cpan.org/~smueller/PathTools-3.40/
-YAML 	http://search.cpan.org/~ingy/YAML-0.88/
+* File::Temp 	http://search.cpan.org/~dagolden/File-Temp-0.2301/
+* File::Slurp 	http://search.cpan.org/~uri/File-Slurp-9999.19/
+* File::Copy 	http://search.cpan.org/~rjbs/perl-5.18.1/
+* Compress::Zlib 	http://search.cpan.org/~pmqs/IO-Compress-2.063/
+* List::Util 	http://search.cpan.org/~pevans/Scalar-List-Utils-1.35/
+* Algorithm::NeedlemanWunsch 	http://search.cpan.org/~vbar/Algorithm-NeedlemanWunsch-0.04/
+* Benchmark 	http://search.cpan.org/~rjbs/perl-5.18.1/
+* Cwd 	http://search.cpan.org/~smueller/PathTools-3.40/
+* YAML 	http://search.cpan.org/~ingy/YAML-0.88/
 
 Additional software:
 LIBSVM 	Support Vector Machines for classification and regression
